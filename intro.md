@@ -21,25 +21,30 @@
    - Git hub is used when you want to add new or change pre-existing files in your working directory.
 2. Git commit
    - Git commit save your latest changest in your working directory. It creates a history of your coding progress, which make it easier to follow your train of thought when coding if someone where to look back on it.
-3. Git push
-   - Git pushed is used when you want to update the remote branch with your local commits. Git puch is necessary when working in teams because your colleuges need to get access to eachothers progress.
-4. Git pull
-   - Git pull is used to update your current local branch with changes and additions added to the remote branch. Gir push and git pull works hand in hand.
-5. Git remote
-   - Git remote let you create, view and delete connections to other repositoties. You use then commant do manage a list of remote enteties.
-6. Git checkout
+3. Git config
+   - The git config command is used to edit user data, whit that being user.name and user.email. Changeing the settings in git config with a --global flag edit settings on all repositories on the computer. Git config can also be used to change behaviour of git status.
+4. Git log
+   - The git log command shows the chronological commit history of a repository
+5. Git checkout
    - Git checkout is used to navigate between branches.
-7. Git branch
+6. Git branch
    - Git branch is used to create, list, rename and delete branches.
-8. Git clone
+7. Git clone
    - Git clone is used when you want to clone a branch of a or a whole repository to your local working directory.
-9. Git status
+8. Git status
    - Git status is always a good command to use when in doubt of what you haven't commitad yet. It shows the current stage of your git working directory and staging area.
-10. Git init
-    - The command is used to turn a directory to a repository.
+9. Git init
+   - The command is used to turn a directory to a repository.
 
 ![gitFlow]
 
 [gitflow]: gitFlow.png
 
 ### Q&A team usage of git
+
+3. Git push
+   - Git pushed is used when you want to update the remote branch with your local commits. Git puch is necessary when working in teams because your colleuges need to get access to eachothers progress.
+4. Git pull
+   - Git pull is used to update your current local branch with changes and additions added to the remote branch. Gir push and git pull works hand in hand.
+5. Git remote
+   - Git remote let you create, view and delete connections to other repositoties. You use then commant do manage a list of remote enteties.
