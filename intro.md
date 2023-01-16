@@ -39,15 +39,19 @@
 
 - The command is used to turn a directory to a repository.
 
-![gitFlow]
+```mermaid
+graph LR
+A[(Working Directory)]-->|git add|B[(Staging Area)]
+A-->|git init|B
+A-->|git config|A
+B-->|git commit|C[(Local Repository)]
+B-->|git status|B
+C-->|git merge|D[(Branch)]
+D-->|git checkout|C
+D-->|git log|C
+D-->|git branch|D
+C-->|git push|E[(Remote Repository)]
+E-->|Pull|C
+```
 
-[gitflow]: gitFlow.png
-
-### Q&A team usage of git
-
-3. Git push
-   - Git pushed is used when you want to update the remote branch with your local commits. Git puch is necessary when working in teams because your colleuges need to get access to eachothers progress.
-4. Git pull
-   - Git pull is used to update your current local branch with changes and additions added to the remote branch. Gir push and git pull works hand in hand.
-5. Git remote
-   - Git remote let you create, view and delete connections to other repositoties. You use then commant do manage a list of remote enteties.
+### Working with git as a team
