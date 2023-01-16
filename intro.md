@@ -38,8 +38,7 @@
 10. Git init
     - The command is used to turn a directory to a repository.
 
-![gitFlow]
+![Gitflow](https://user-images.githubusercontent.com/112617817/212657326-2dab0b05-9723-4965-aa9c-28a0c6131818.svg)
 
-[gitflow]: gitFlow.png
 
 ### Q&A team usage of git
