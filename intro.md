@@ -42,10 +42,10 @@
 ```mermaid
 graph LR
 A[(Working Directory)]-->|git add|B[(Staging Area)]
-A-->|git init|B
-A-->|git config|A
+A-->|git init|C
+C-->|git config|C
 B-->|git commit|C[(Local Repository)]
-B-->|git status|B
+B-->|git status|A
 C-->|git merge|D[(Branch)]
 D-->|git checkout|C
 D-->|git log|C
