@@ -17,7 +17,7 @@ In the prosses of downloading followed the steps with no issues until step 3 whe
 
 Soon after the first issue another one appeared where I had to restart the computer and change the CPU settings to enable the VM to work.
 
-### **10 important local Git commands**
+### **Important local Git commands**
 
 1. Git add
    - Git hub is used when you want to add new or change pre-existing files in your working directory.
@@ -33,13 +33,25 @@ Soon after the first issue another one appeared where I had to restart the compu
    - Git branch is used to create, list, rename and delete branches.
 7. Git merge
    - This command is used to integrate branches, combine the changes done from one branch to another branch and then merge them togrther.
-8. Git clone
-   - Git clone is used when you want to clone a branch of a or a whole repository to your local working directory.
+8. Git version
+   - Command used to see what version of Git you are using.
 9. Git status
    - Git status is always a good command to use when in doubt of what you haven't commitad yet. It shows the current stage of your git working directory and staging area.
 10. Git init
 
 - The command is used to turn a directory to a repository.
+
+### **Basic Remote Git commands**
+
+1. Git clone
+   - Git clone is used when you want to clone a branch of a or a whole repository to your local working directory.
+2. Git remote
+   - This command is used to connect a local repository with a remote repository.
+3. Git pull
+   - The Git pull command is used to get the latest version from the remote repository to your local repository.
+4. Git push
+   - The Git push command send local commits to remote repository.
+     <br/>
 
 ```mermaid
 graph LR
@@ -67,9 +79,12 @@ The main problem you'll run into when working together on a project is **_merge 
 Merge conflicts can be **_resolved_** in your code editor such as Visual Studio Code but it is also be good to understand how to resolve merge conflicts in Git using the command line.
 <br/>
 
-To resolve the merge conflict in Git command line you have to open Git Bash and navigate into the local Git repository that has the merge conflict. Once in the repository that's affected by the merge conflict it you will have to generate a list of files affected by the merge conflict. After decided which changes too incoporate in the final merge you'll have to stage your changes and commit the with a comment. The merge confict will then be solved and the changes will be sent to the remote repocitory on GitHub.
+To resolve the merge conflict in Git command line you have to open Git Bash and navigate into the local Git repository that has the merge conflict. Once in the repository that's affected by the merge conflict it you will have to generate a list of files affected by the merge conflict. After decided which changes to incoporate in the final merge you'll have to stage your changes and commit the with a comment. The merge confict will then be solved and the changes will be sent to the remote repocitory on GitHub.
 <br/>
 
 ### **What is GitHub?**
 
 GitHub is a code hosting platform where you can store code in a repository. In github you can see commit history and follow the process on how a program was developed from start to finnish or it current state. It's great for version control and collaboration with other devs.
+<br/>
+
+### **SSH - Secure Shell**
