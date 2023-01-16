@@ -69,3 +69,7 @@ Merge conflicts can be **_resolved_** in your code editor such as Visual Studio 
 
 To resolve the merge conflict in Git command line you have to open Git Bash and navigate into the local Git repository that has the merge conflict. Once in the repository that's affected by the merge conflict it you will have to generate a list of files affected by the merge conflict. After decided which changes too incoporate in the final merge you'll have to stage your changes and commit the with a comment. The merge confict will then be solved and the changes will be sent to the remote repocitory on GitHub.
 <br/>
+
+### **What is GitHub?**
+
+GitHub is a code hosting platform where you can store code in a repository. In github you can see commit history and follow the process on how a program was developed from start to finnish or it current state. It's great for version control and collaboration with other devs.
