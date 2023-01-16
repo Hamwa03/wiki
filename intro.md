@@ -24,17 +24,20 @@
 3. Git config
    - The git config command is used to edit user data, whit that being user.name and user.email. Changeing the settings in git config with a --global flag edit settings on all repositories on the computer. Git config can also be used to change behaviour of git status.
 4. Git log
-   - The git log command shows the chronological commit history of a repository
+   - The git log command shows the chronological commit history of a repository. It can be a useful tool to use when picking up an old project or someone elses code to get context to how the code was built.
 5. Git checkout
    - Git checkout is used to navigate between branches.
 6. Git branch
    - Git branch is used to create, list, rename and delete branches.
-7. Git clone
+7. Git merge
+   - This command is used to integrate branches, combine the changes done from one branch to another branch and then merge them togrther.
+8. Git clone
    - Git clone is used when you want to clone a branch of a or a whole repository to your local working directory.
-8. Git status
+9. Git status
    - Git status is always a good command to use when in doubt of what you haven't commitad yet. It shows the current stage of your git working directory and staging area.
-9. Git init
-   - The command is used to turn a directory to a repository.
+10. Git init
+
+- The command is used to turn a directory to a repository.
 
 ![gitFlow]
 
