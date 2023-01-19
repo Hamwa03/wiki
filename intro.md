@@ -86,5 +86,3 @@ To resolve the merge conflict in Git command line you have to open Git Bash and 
 
 GitHub is a code hosting platform where you can store code in a repository. In github you can see commit history and follow the process on how a program was developed from start to finnish or it current state. It's great for version control and collaboration with other devs.
 <br/>
-
-### **SSH - Secure Shell**
